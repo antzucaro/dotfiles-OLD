@@ -1,0 +1,115 @@
+[begin] (Fluxbox)
+   [exec] (File Browser) {/usr/bin/nautilus --no-desktop /home/ant} </usr/share/pixmaps/nautilus.xpm>
+   [exec] (Terminal) {/usr/bin/gnome-terminal} </usr/share/pixmaps/gnome-terminal.xpm>
+   [exec] (Google Chrome) {/opt/google/chrome/google-chrome} </opt/google/chrome/product_logo_32.xpm>
+   [exec] (Firefox Browser) {/usr/bin/firefox} </usr/share/pixmaps/firefox.png>
+   [exec] (gmpc) {/usr/bin/gmpc} </usr/share/pixmaps/gmpc.xpm>
+   [exec] (VIM) {/usr/bin/vim.gtk -g -f} </usr/share/pixmaps/vim-32.xpm>
+   [exec] (digikam) {/usr/bin/digikam} </usr/share/pixmaps/digikam.xpm>
+   [exec] (WorldOfGoo) {x-terminal-emulator -T "WorldOfGoo" -e /home/ant/Documents/WorldOfGoo/WorldOfGoo} </home/ant/Documents/WorldOfGoo/icons/64x64.png>
+   [exec] (K3b) {/usr/bin/k3b} </usr/share/pixmaps/k3b.xpm>
+   [exec] (File Browser) {/usr/bin/nautilus --no-desktop} </usr/share/pixmaps/nautilus.xpm>
+
+   [submenu] (Applications) {}
+      [submenu] (Editors) {}
+         [exec] (Gedit) {/usr/bin/gedit} </usr/share/pixmaps/gedit-icon.xpm>
+         [exec] (GVIM) {/usr/bin/vim.gtk -g -f} </usr/share/pixmaps/vim-32.xpm>
+         [exec] (Nano) { x-terminal-emulator -T "Nano" -e /bin/nano} </usr/share/nano/nano-menu.xpm>
+         [exec] (Xedit) {xedit} <>
+      [end]
+      [submenu] (Emulators) {}
+         [exec] (DOSBox) {/usr/bin/dosbox} </usr/share/pixmaps/dosbox.xpm>
+         [exec] (VirtualBox OSE) {/usr/bin/virtualbox} </usr/share/pixmaps/virtualbox-ose.xpm>
+         [exec] (ZSNES) {/usr/bin/zsnes} </usr/share/pixmaps/zsnes.xpm>
+      [end]
+      [submenu] (File Management) {}
+         [exec] (Brasero) {/usr/bin/brasero} <>
+         [exec] (Disk usage analyzer) {/usr/bin/baobab} </usr/share/pixmaps/baobab.xpm>
+         [exec] (File-Roller) {/usr/bin/file-roller} </usr/share/pixmaps/file-roller.xpm>
+         [exec] (GNOME Search Tool) {/usr/bin/gnome-search-tool} </usr/share/pixmaps/gsearchtool.xpm>
+         [exec] (K3b) {/usr/bin/k3b} </usr/share/pixmaps/k3b.xpm>
+         [exec] (Keepass) {/usr/bin/keepassx} </usr/share/pixmaps/keepassx.xpm>
+         [exec] (mc) { x-terminal-emulator -T "mc" -e /usr/bin/mc} </usr/share/pixmaps/mc.xpm>
+         [exec] (Nautilus) {/usr/bin/nautilus} </usr/share/pixmaps/nautilus.xpm>
+      [end]
+   [submenu] (Games) {}
+      [exec] (Gnibbles) {/usr/games/gnibbles} </usr/share/pixmaps/gnibbles.xpm>
+      [exec] (PrBoom) {/usr/games/prboom} <>
+      [exec] (Frozen-Bubble) {/usr/games/frozen-bubble} </usr/share/pixmaps/frozen-bubble.xpm>
+      [exec] (Four-in-a-row) {/usr/games/gnect} </usr/share/pixmaps/gnect.xpm>
+      [exec] (GL Chess) {/usr/games/glchess} </usr/share/pixmaps/glchess.xpm>
+      [exec] (Gnome GYahtzee) {/usr/games/gtali} </usr/share/pixmaps/gtali.xpm>
+      [exec] (Gnome Iagno) {/usr/games/iagno} </usr/share/pixmaps/iagno.xpm>
+      [exec] (Gnome Lines) {/usr/games/glines} </usr/share/pixmaps/glines.xpm>
+      [exec] (Gnome Mahjongg) {/usr/games/mahjongg} </usr/share/pixmaps/mahjongg.xpm>
+      [exec] (Gnome FreeCell) {/usr/games/sol --variation freecell} </usr/share/pixmaps/freecell.xpm>
+      [exec] (Gnome Solitaire Games) {/usr/games/sol} </usr/share/pixmaps/aisleriot.xpm>
+      [exec] (gbrainy) {/usr/games/gbrainy} </usr/share/pixmaps/gbrainy.xpm>
+      [exec] (Gnome Robots) {/usr/games/gnobots2} </usr/share/pixmaps/gnobots2.xpm>
+      [exec] (Gnome Sudoku) {/usr/games/gnome-sudoku} </usr/share/pixmaps/gnome-sudoku.xpm>
+      [exec] (Gnome Tetravex) {/usr/games/gnotravex} </usr/share/pixmaps/gnotravex.xpm>
+      [exec] (Gnomine) {/usr/games/gnomine} </usr/share/pixmaps/gnomine.xpm>
+      [exec] (Lights Off) {/usr/games/lightsoff} <>
+      [exec] (Quadrapassel) {/usr/games/quadrapassel} </usr/share/pixmaps/quadrapassel.xpm>
+      [exec] (Swell Foop) {/usr/games/swell-foop} </usr/share/pixmaps/swell-foop.xpm>
+   [end]
+      [submenu] (Graphics) {}
+         [exec] (digikam) {/usr/bin/digikam} <>
+         [exec] (Evince) {/usr/bin/evince} </usr/share/pixmaps/evince.xpm>
+         [exec] (Eye of GNOME) {/usr/bin/eog} </usr/share/pixmaps/gnome-eog.xpm>
+         [exec] (GNOME Screenshot Tool) {/usr/bin/gnome-panel-screenshot} <>
+         [exec] (gtk-recordmydesktop) {/usr/bin/gtk-recordMyDesktop} </usr/share/pixmaps/gtk-recordmydesktop.xpm>
+         [exec] (Hugin) {/usr/bin/hugin} <>
+         [exec] (ImageMagick) {/usr/bin/display logo:} </usr/share/pixmaps/display.xpm>
+         [exec] (Inkscape) {/usr/bin/inkscape} </usr/share/pixmaps/inkscape.xpm>
+         [exec] (Kdenlive) {/usr/bin/kdenlive} </usr/share/pixmaps/kdenlive.xpm>
+         [exec] (OpenOffice.org Draw) {/usr/bin/oodraw} </usr/share/icons/hicolor/32x32/apps/openofficeorg3-draw.xpm>
+         [exec] (qtpfsgui) {/usr/bin/qtpfsgui} <>
+         [exec] (The GIMP) {/usr/bin/gimp} </usr/share/pixmaps/gimp.xpm>
+      [end]
+      [submenu] (Network) {}
+            [exec] (Pidgin) {/usr/bin/pidgin} </usr/share/pixmaps/pidgin-menu.xpm>
+            [exec] (TeamSpeak) {/usr/bin/teamspeak} </usr/share/pixmaps/teamspeak.xpm>
+            [exec] (weechat-curses) { x-terminal-emulator -T "weechat-curses" -e /usr/bin/weechat-curses} </usr/share/pixmaps/weechat.xpm>
+            [exec] (FileZilla) {/usr/bin/filezilla} </usr/share/pixmaps/filezilla.xpm>
+            [exec] (Transmission BitTorrent Client (GTK\)) {/usr/bin/transmission} </usr/share/pixmaps/transmission.xpm>
+            [exec] (WICD) {/usr/bin/wicd-gtk} </usr/share/pixmaps/wicd-gtk.xpm>
+            [exec] (Firefox Browser) {/usr/bin/firefox} </usr/share/pixmaps/firefox.png>
+            [exec] (Google Chrome) {/opt/google/chrome/google-chrome} </opt/google/chrome/product_logo_32.xpm>
+      [end]
+      [submenu] (Office) {}
+         [exec] (OpenOffice.org Calc) {/usr/bin/oocalc} </usr/share/icons/hicolor/32x32/apps/openofficeorg3-calc.xpm>
+         [exec] (OpenOffice.org Impress) {/usr/bin/ooimpress} </usr/share/icons/hicolor/32x32/apps/openofficeorg3-impress.xpm>
+         [exec] (OpenOffice.org Writer) {/usr/bin/oowriter} </usr/share/icons/hicolor/32x32/apps/openofficeorg3-writer.xpm>
+      [end]
+      [submenu] (Science) {}
+         [exec] (Dia) {/usr/bin/dia-normal} </usr/share/pixmaps/dia_menu.xpm>
+         [exec] (Viking) {/usr/bin/viking} </usr/share/pixmaps/viking.xpm>
+         [exec] (SpeedCrunch) {/usr/bin/speedcrunch} <speedcrunch.xpm>
+      [end]
+      [submenu] (Sound) {}
+         [exec] (Amarok) {/usr/bin/amarok} <>
+         [exec] (Audacity) {/usr/bin/audacity} </usr/share/pixmaps/audacity32.xpm>
+         [exec] (easytag) {/usr/bin/easytag} </usr/share/pixmaps/easytag.xpm>
+         [exec] (gmix (Gnome 2.0 Mixer\)) {/usr/bin/gnome-volume-control} </usr/share/pixmaps/gnome-mixer.xpm>
+         [exec] (gmpc) {/usr/bin/gmpc} </usr/share/pixmaps/gmpc.xpm>
+         [exec] (moc) { x-terminal-emulator -T "moc" -e /usr/bin/mocp} <>
+         [exec] (ncmpc) { x-terminal-emulator -T "ncmpc" -e /usr/bin/ncmpc} <>
+         [exec] (Rhythmbox) {/usr/bin/rhythmbox} </usr/share/pixmaps/rhythmbox-small.xpm>
+      [end]
+      [submenu] (System) {}
+         [exec] (Synaptic Package Manager) {/usr/bin/gksu /usr/sbin/synaptic} </usr/share/synaptic/pixmaps/synaptic_32x32.xpm>
+         [exec] (Gnome Terminal) {/usr/bin/gnome-terminal} </usr/share/pixmaps/gnome-terminal.xpm>
+      [end]
+   [end]
+   [config] (Configuration)
+   [submenu] (Styles) {}
+      [stylesdir] (/usr/share/fluxbox/styles)
+      [stylesdir] (~/.fluxbox/styles)
+   [end]
+   [workspaces] (Workspaces)
+   [reconfig] (Reconfigure)
+   [restart] (Restart)
+   [exit] (Exit)
+
+[end]
